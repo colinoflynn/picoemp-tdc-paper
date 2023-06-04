@@ -1,0 +1,1 @@
+WARNING: Due to limtations in gerber editing these files are not fully anonymized.
