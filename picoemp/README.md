@@ -8,8 +8,6 @@ The PicoEMP is a low-cost Electromagnetic Fault Injection (EMFI) tool, designed 
 
 ![](hardware/picoemp.jpeg)
 
-You can see some details of the design in the [Intro Video](https://www.youtube.com/watch?v=nB5arJi-tVE).
-
 ## Building a PicoEMP
 
 The PicoEMP uses a Raspberry Pi Pico as the controller, inspired by @nezza using it for the debug-n-dump tool. You could alternatively use an Arduino or another microcontroller. You basically just need a few things:
