@@ -1,12 +1,14 @@
-# Repository for PicoEMP & TDC Testing Paper
+# Repository for PicoEMP: A Low-Cost EMFI Platform Compared to BBI and Voltage Fault Injection using TDC and External VCC Measurements
 
-This is an anonymous version of information being released with the paper under consideration.
+This repository contains:
 
-Note the actual release includes seperate repositores for the PicoEMP design and the iCE40 design. Both of these are being released, but for convience here they are linked as one anonymous repository.
+* Design of an iCE40 TDC described in the above paper.
+* Additional data used to generate figures in the paper, useful for performing comparisons
 
-This anonymous version has been combined from those. All names have been removed (including in PDFs and images) so you can safely browse this data. The source PCB files & gerbers may not be fully anonymized due to limitations in editing those files.
+This repository was originally an anonymous version of the PicoEMP repository as well, used for the paper review. This can be seen in the GIT history, but the PicoEMP designed is stored in [another repository](https://github.com/newaetech/chipshouter-picoemp). There may still be a few anonymous things as this repo is further cleaned up.
 
-## PicoEMP Firmware
+The paper is to be presented at FDTC 2023 on Septemer 10, 2023.
 
-The included repository has a basic micropython firmware that was used for this work. Additional work to build new firmware is outside the scope of this paper.
+### PicoEMP differences in paper
 
+Note the paper used only some of the basic PicoEMP features, and did not require the more advanced firmware. The more advanced firmware was written by @stacksmashing and can be seen in the [PicoEMP Repo](https://github.com/newaetech/chipshouter-picoemp).
